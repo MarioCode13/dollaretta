@@ -28,13 +28,13 @@ const CreatorPage = () => {
       </p>
 
       {/* Banner Image */}
-      <div className='w-full '>
+      <div className='w-full max-w-4xl mx-auto'>
         <Image
           src='/creator/creator2.png'
           alt='Creator Banner'
           width={900}
           height={700}
-          className='max-w-[900px] rounded-xl shadow-md object-cover max-h-[700px] mx-auto'
+          className='w-full h-auto rounded-xl shadow-md object-cover'
         />
       </div>
     </div>

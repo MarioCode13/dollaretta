@@ -21,3 +21,26 @@ export const ISSUE_BY_ID_QUERY =
   image,
   amazonLink
 }`)
+
+export const CHARACTERS_QUERY = defineQuery(`*[_type == "character"] | order(id asc) {
+  _id, 
+  id,
+  name,
+  nickname, 
+  slug,
+  description, 
+  image,
+  descriptionImage
+}`)
+
+export const CHARACTER_BY_ID_QUERY =
+  defineQuery(`*[_type == "character" && _id == $id][0]{
+  _id, 
+  id,
+  name,
+  nickname, 
+  slug,
+  description, 
+  image,
+  descriptionImage
+}`)
