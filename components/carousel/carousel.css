@@ -1,0 +1,78 @@
+.embla {
+  max-width: 62rem;
+  margin: auto;
+  position: relative;
+  --slide-size: calc(33.33%);
+}
+
+.embla__viewport {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.embla__container {
+  display: flex;
+  touch-action: pan-y pinch-zoom;
+  scroll-snap-type: x mandatory;
+}
+
+.embla__slide {
+  flex: 0 0 var(--slide-size);
+  min-width: 0;
+  padding-left: var(--slide-spacing);
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+.embla__slide:hover{
+  opacity: 0.9;
+}
+
+.embla__slide__content {
+  position: absolute;
+  bottom: 1rem; /* Adjust as needed for vertical positioning */
+  left: 1rem; /* Position content within the slide */
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: calc(100% - 2rem);
+}
+
+.embla__button {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 50%; /* Center the buttons vertically */
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.embla__button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.embla__button:disabled {
+  color: var(--detail-high-contrast);
+}
+
+.embla__button__svg {
+  width: 35%;
+  height: 35%;
+  color: #000;
+}
+
+.embla__button--prev {
+  left: 0;
+}
+
+.embla__button--next {
+  right: 0;
+}
