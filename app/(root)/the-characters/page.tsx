@@ -1,8 +1,6 @@
-import { urlFor } from '@/sanity/lib/image'
 import { sanityFetch } from '@/sanity/lib/live'
 import { CHARACTERS_QUERY } from '@/sanity/lib/queries'
 import { Character } from '@/sanity/types'
-import Image from 'next/image'
 import CharacterCard from './CharacterCard'
 
 const TheCharactersPage = async () => {

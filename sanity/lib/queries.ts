@@ -7,7 +7,8 @@ export const ISSUES_QUERY = defineQuery(`*[_type == "issue"] | order(chapter asc
   slug,
   description, 
   image,
-  amazonLink
+  amazonLink,
+  price
 }`)
 
 
@@ -19,7 +20,8 @@ export const ISSUE_BY_ID_QUERY =
   slug,
   description, 
   image,
-  amazonLink
+  amazonLink,
+  price
 }`)
 
 export const CHARACTERS_QUERY = defineQuery(`*[_type == "character"] | order(id asc) {

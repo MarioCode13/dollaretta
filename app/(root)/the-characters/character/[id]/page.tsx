@@ -34,7 +34,7 @@ const CharacterPage = async ({ params }: { params: { id: string } }) => {
       </h1>
       <div className='w-full max-w-lg rounded-lg overflow-hidden shadow-lg mb-8 flex  justify-center'>
         <Image
-          src={urlFor(character.descriptionImage).url()}
+          src={urlFor(character.descriptionImage ?? '').url()}
           alt={character.nickname ?? 'portrait'}
           width={1000}
           height={1000}
