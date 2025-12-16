@@ -20,7 +20,7 @@ const TheLegendPage = () => {
       />
 
       {/* Description */}
-      <p className='text-md text-gray-600 text-center max-w-3xl mb-12 font-cinzel'>
+      <p className='text-md  text-center max-w-3xl mb-12 font-cinzel'>
         Elizabeth Rose Convent is a Catholic co-ed boarding school dedicated to
         the pursuit of optimal education, discipline and general well-being for
         all of its 700 students. The land was not always a designated boarding
@@ -47,7 +47,7 @@ const TheLegendPage = () => {
         width={370}
         alt='portrait'
       />
-      <p className='text-md text-gray-600 text-center max-w-3xl mb-12 font-cinzel'>
+      <p className='text-md  text-center max-w-3xl mb-12 font-cinzel'>
         In the early years of the 18th Century a young lady of nobility named
         Elizabeth was married to the Boulegard heir: Aiden Theodore Boulegard.
         Elizabeth was known for her exceptional beauty as well as her rare and
@@ -63,7 +63,7 @@ const TheLegendPage = () => {
         width={370}
         alt='portrait'
       />
-      <p className='text-md text-gray-600 text-center max-w-3xl mb-12 font-cinzel'>
+      <p className='text-md   text-center max-w-3xl mb-12 font-cinzel'>
         Once she eventually gave birth to a baby girl, she was forced to resign
         her hobby and devote herself to motherhood. Only months later the
         Boulegard Manor was aflame. The cause was unknown, but the fire started
@@ -83,7 +83,7 @@ const TheLegendPage = () => {
         width={370}
         alt='portrait'
       />
-      <p className='text-md text-gray-600 text-center max-w-3xl mb-12 font-cinzel'>
+      <p className='text-md  text-center max-w-3xl mb-12 font-cinzel'>
         It was then revealed that her fate to survive had been determined solely
         by her peculiar decision to escape the manor that dark night to return
         to her doll house (a house behind the manor that she once used as a
@@ -105,7 +105,7 @@ const TheLegendPage = () => {
         width={370}
         alt='portrait'
       />
-      <p className='text-md text-gray-600 text-center max-w-3xl mb-12 font-cinzel'>
+      <p className='text-md   text-center max-w-3xl mb-12 font-cinzel'>
         They suspected it was Elizabeth who was murdering their young ones out
         of hatred and spite. Elizabeth&apos;s rank of nobility shielded her from
         the common people&apos;s accusations, but the suspicion never ceased.
@@ -119,7 +119,7 @@ const TheLegendPage = () => {
       <div className='text-center'>
         <a
           href='/the-legend/full-story'
-          className='inline-block bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition'
+          className='inline-block bg-red-600 text-white py-2 px-6 rounded-lg hover:bg-red-700 transition'
         >
           Discover More
         </a>

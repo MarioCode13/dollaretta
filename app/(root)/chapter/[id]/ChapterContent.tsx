@@ -16,7 +16,7 @@ const ChapterContent = ({
       <h1 className='text-4xl font-bold text-center mb-6 font-cinzel-d'>
         {chapter.title}
       </h1>
-      <p className='text-lg text-gray-600 mb-8 max-w-2xl text-center font-cinzel'>
+      <p className='text-lg mb-8 max-w-2xl text-center font-cinzel'>
         {chapter.description}
       </p>
     </div>

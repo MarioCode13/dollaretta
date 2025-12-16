@@ -7,7 +7,7 @@ export default function Layout({
   return (
     <main>
       <Navbar />
-      <div className='pt-[80px]'>{children}</div>
+      <div className='pt-[80px] pb-8'>{children}</div>
     </main>
   )
 }

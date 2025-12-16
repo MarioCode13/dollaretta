@@ -15,11 +15,11 @@ const CharacterCard: React.FC<CharacterCardProps> = ({ character }) => {
 
   return (
     <div
-      className='flex flex-col items-center text-center cursor-pointer'
+      className='flex flex-col items-center text-center cursor-pointer grayscale hover:grayscale-0 ease-in-out duration-700'
       onClick={() => router.push(`the-characters/character/${character._id}`)}
     >
       {/* Image */}
-      <div className='rounded-lg overflow-hidden shadow-lg'>
+      <div className='rounded-lg overflow-hidden shadow-xl  '>
         <Image
           src={urlFor(character.image ?? '').url()}
           alt={character.nickname ?? 'portrait'}

@@ -13,7 +13,7 @@ const TheCharactersPage = async () => {
       </h1>
 
       {/* Description */}
-      <p className='text-lg text-gray-600 text-center max-w-3xl mb-12'>
+      <p className='text-lg   text-center max-w-3xl mb-12'>
         Meet the iconic individuals who bring the legend to life.
       </p>
 

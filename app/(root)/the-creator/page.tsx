@@ -20,7 +20,7 @@ const CreatorPage = () => {
       </h1>
 
       {/* Description */}
-      <p className='text-lg text-gray-600 text-center max-w-2xl mb-12'>
+      <p className='text-lg   text-center max-w-2xl mb-12'>
         Discover the mind behind the creation. With a passion for storytelling
         and a vision for something extraordinary, the creator has poured their
         heart and soul into bringing this universe to life. Every detail, from
